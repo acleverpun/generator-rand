@@ -1,6 +1,22 @@
 {
-  "name": "package",
+  "name": "<%= id %>",
   "version": "0.0.0",
-  "dependencies": {}
+  "authors": [
+    "Ross Hadden <rosshadden@gmail.com>",
+    "Andrew Oppenlander <andrew.oppenlander@gmail.com>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "vendor",
+    "tmp"
+  ],
+  "dependencies": {
+    "phaser": "~2.3.0",
+    "lodash": "~3.8.0",
+    "lodash-deep": "~1.6.0"
+  }
 }
 
